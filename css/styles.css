@@ -1,6 +1,23 @@
+h1{
+  text-align: center;
+}
+
 .column {
   float: left;
-  width: 33.33%;
+  width: 32%;
+  background-color: grey;
+  margin: 10px;
+  height: 500px;
+}
+
+.column h3{
+  font-weight: bold;
+  text-align: center;
+}
+
+.column p {
+  font-family: sans-serif;
+  margin: 10px;
 }
 
 .row:after {
